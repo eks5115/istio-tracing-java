@@ -11,7 +11,7 @@ spec:
   gateways:
   - {{ include "istio-tracing-java-a.fullname" . }}
   hosts:
-  - 'istio-tracing-java.local.com'
+  - 'istio-tracing-java.eks5115.github.com'
   http:
   - route:
     - destination:
